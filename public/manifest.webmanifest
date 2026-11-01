@@ -1,0 +1,20 @@
+{
+  "name": "TapTable — AURA Kitchen & Bar",
+  "short_name": "TapTable",
+  "description": "Contemporary Editorial Dining Experience, Live Kitchen Tracking & Smart Bill Settlement for AURA Kitchen & Bar.",
+  "start_url": "/r/aura-kitchen?table=12",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F2EC",
+  "theme_color": "#F5F2EC",
+  "categories": ["food", "lifestyle", "hospitality"],
+  "icons": [
+    {
+      "src": "/icons/aura-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

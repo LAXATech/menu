@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+
+    /* Hospitality Brand Palette */
+    --color-porcelain: #F5F2EC;
+    --color-ivory: #EAE5DB;
+    --color-cream: #FCFAF6;
+    --color-espresso: #29251F;
+    --color-warm-grey: #817A70;
+    --color-stone: #A49B8F;
+    --color-olive: #465344;
+    --color-brass: #A88A58;
+    --color-taupe: #DED8CE;
+    --color-forest: #47745A;
+    --color-burgundy: #A94B47;
+
+    /* Semantic Aliases */
+    --bg-primary: #F5F2EC;
+    --bg-secondary: #EAE5DB;
+    --bg-elevated: #FCFAF6;
+    --border-subtle: #DED8CE;
+    --brand-primary: #465344;
+    --accent-secondary: #A88A58;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: #EAE5DB;
+    color: #29251F;
+    font-family: 'Manrope', Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #EAE5DB;
+    color: #29251F;
+    min-height: 100vh;
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbars while keeping scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Guaranteed Opaque Luxury Utility Classes */
+@layer utilities {
+  .bg-porcelain {
+    background-color: #F5F2EC !important;
+  }
+  .bg-ivory {
+    background-color: #EAE5DB !important;
+  }
+  .bg-cream {
+    background-color: #FCFAF6 !important;
+  }
+  .bg-espresso {
+    background-color: #29251F !important;
+  }
+  .bg-olive {
+    background-color: #465344 !important;
+  }
+  .bg-olive-hover:hover {
+    background-color: #384337 !important;
+  }
+  .bg-brass {
+    background-color: #A88A58 !important;
+  }
+  .bg-taupe {
+    background-color: #DED8CE !important;
+  }
+  .bg-forest {
+    background-color: #47745A !important;
+  }
+  .bg-burgundy {
+    background-color: #A94B47 !important;
+  }
+
+  .text-espresso {
+    color: #29251F !important;
+  }
+  .text-warm-grey {
+    color: #817A70 !important;
+  }
+  .text-stone {
+    color: #A49B8F !important;
+  }
+  .text-cream {
+    color: #FCFAF6 !important;
+  }
+  .text-olive {
+    color: #465344 !important;
+  }
+  .text-brass {
+    color: #A88A58 !important;
+  }
+  .text-brass-dark {
+    color: #8C7245 !important;
+  }
+  .text-forest {
+    color: #47745A !important;
+  }
+  .text-burgundy {
+    color: #A94B47 !important;
+  }
+
+  .border-taupe {
+    border-color: #DED8CE !important;
+  }
+  .border-olive {
+    border-color: #465344 !important;
+  }
+  .border-brass {
+    border-color: #A88A58 !important;
+  }
+  .border-forest {
+    border-color: #47745A !important;
+  }
+  .border-burgundy {
+    border-color: #A94B47 !important;
+  }
+}
+
+/* Restrained Editorial Surfaces */
+.luxury-surface {
+  background-color: #FCFAF6;
+  border: 1px solid #DED8CE;
+}
+
+.luxury-surface-soft {
+  background-color: #F5F2EC;
+  border: 1px solid #DED8CE;
+}
+
+/* Editorial subtle blur for sticky headers and floating docks */
+.luxury-blur-header {
+  background-color: rgba(245, 242, 236, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.luxury-dock {
+  background-color: #FCFAF6;
+  border: 1px solid #DED8CE;
+  box-shadow: 0 16px 40px -8px rgba(41, 37, 31, 0.14), 0 4px 12px -2px rgba(41, 37, 31, 0.06);
+}
+
+/* Legacy classes redefined for warm luxury */
+.aura-glass {
+  background-color: #FCFAF6;
+  border: 1px solid #DED8CE;
+}
+
+.aura-glass-heavy {
+  background-color: #FCFAF6;
+  border: 1px solid #DED8CE;
+}
+
+.aura-card {
+  background-color: #FCFAF6;
+  border: 1px solid #DED8CE;
+}
+
+/* Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

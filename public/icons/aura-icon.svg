@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="116" fill="#465344"/>
+  <rect x="16" y="16" width="480" height="480" rx="100" stroke="#A88A58" stroke-opacity="0.32" stroke-width="3"/>
+  <circle cx="256" cy="256" r="168" stroke="#DED8CE" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <!-- Elegant Serif Lettermark 'A' -->
+  <path d="M256 128L344 368H304L284 310H228L208 368H168L256 128ZM272 274L256 226L240 274H272Z" fill="#FCFAF6"/>
+  <!-- Muted Brass Crown Dot -->
+  <circle cx="256" cy="104" r="7" fill="#A88A58"/>
+</svg>
